@@ -1,0 +1,7 @@
+<div class="container">
+  <button type="refresh" class="btn btn-primary" (click)="onRefresh()">Refresh</button>
+<div >
+  <app-todo-detail *ngFor="let todo of todos" class="row" [todo]="todo"></app-todo-detail>
+</div>
+
+</div>
